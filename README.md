@@ -12,11 +12,11 @@ Answer the following questions based on your understanding of the installation a
 
 
  Steps to Download and Install Visual Studio Code
- 1. Download Visual Studio Code
+ * Download Visual Studio Code
     1. Open a Web Browser: Open your preferred web browser (e.g., Chrome, Edge, Firefox).
     2. Navigate to the VS Code Website: Go to the official Visual Studio Code download page: https://code.visualstudio.com/.
     3. Download the Installer: Click on the "Download for Windows" button. This will download the VS Code installer (a .exe file).
- 2. Install Visual Studio Code
+ * Install Visual Studio Code
     1. Run the Installer: Locate the downloaded VSCodeUserSetup-x64-<version>.exe file in your Downloads folder and double-click it to start the installation process.
     2. Accept the License Agreement: Read through the license agreement and click "I accept the agreement" if you agree. Then, click "Next."
     3. Choose Install Location: Select the destination folder where you want to install VS Code. The default location is usually fine. Click "Next."
