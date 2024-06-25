@@ -50,7 +50,7 @@ Answer the following questions based on your understanding of the installation a
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
 
  Visual Studio Code (VS Code) has a user interface that is designed to be intuitive and customizable, making it easier for developers to navigate and use. Here are the main components of the VS Code user interface, including the Activity Bar, Side Bar, Editor Group, and Status Bar:
- 1. Activity Bar
+ * Activity Bar
  Location: Left side of the window
  Purpose: The Activity Bar allows you to switch between different views and provides quick access to core functionalities. Each icon in the Activity Bar represents a different view or extension.
  Key Icons and Their Functions:
@@ -60,7 +60,7 @@ Answer the following questions based on your understanding of the installation a
     • Run and Debug: (Play icon) Enables you to run and debug your applications.
     • Extensions: (Square icon) Allows you to browse and install VS Code extensions.
     • Remote: (If you have remote extensions installed) Access remote development features.
- 2. Side Bar
+ * . Side Bar
  Location: To the right of the Activity Bar
  Purpose: The Side Bar displays the contents of the selected view from the Activity Bar. It provides detailed information and interactions related to the selected view or extension.
  Common Views:
@@ -68,7 +68,7 @@ Answer the following questions based on your understanding of the installation a
     • Source Control View: Displays your version control information, including changes, branches, and commit history.
     • Extensions View: Lists installed extensions and allows you to search for and install new extensions.
     • Debug View: Displays debug-related information, such as breakpoints, variables, and the call stack.
- 3. Editor Group
+ * . Editor Group
  Location: Center of the window
  Purpose: The Editor Group is where you open and edit your files. It supports multiple editors in a tabbed interface and allows you to split the view to compare or work on multiple files side-by-side.
  Key Features:
@@ -76,7 +76,7 @@ Answer the following questions based on your understanding of the installation a
     • Split Editor: You can split the editor horizontally or vertically to view multiple files simultaneously. Use the split editor icon in the top-right corner of the editor or right-click on a tab and choose "Split Right" or "Split Down."
     • Minimap: A small overview of your code, displayed on the right side of the editor, allowing for quick navigation within a file.
     • Code Folding: Collapse and expand code sections to improve readability and focus on specific parts of the code.
- 4. Status Bar
+ * . Status Bar
  Location: Bottom of the window
  Purpose: The Status Bar provides information about the current state of your workspace, open files, and various settings. It also offers shortcuts to perform common tasks.
  Key Information and Features:
@@ -102,44 +102,44 @@ Answer the following questions based on your understanding of the installation a
  When you open the Command Palette, a text box appears at the top of the VS Code window where you can type commands. As you type, VS Code provides suggestions and matches based on what you’ve entered.
  Common Tasks Performed Using the Command Palette
  Here are some examples of tasks you can perform using the Command Palette:
-    1. Changing Color Theme
+   1. Changing Color Theme
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Theme:
         ◦ Select: Preferences: Color Theme
         ◦ Choose a theme from the list.
-    2. Installing Extensions
+   2. Installing Extensions
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Install Extensions
         ◦ Select: Extensions: Install Extensions
         ◦ Search for and install the desired extension.
-    3. Running a Task
+   3. Running a Task
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Run Task
         ◦ Select: Tasks: Run Task
         ◦ Choose a task from the list (e.g., build, test).
-    4. Opening Settings
+   4. Opening Settings
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Preferences: Open Settings (UI) or Preferences: Open Settings (JSON)
-    5. Navigating to a File
+   5. Navigating to a File
         ◦ Open the Command Palette: Ctrl+P
         ◦ Type the name of the file you want to open.
-    6. Formatting Code
+   6. Formatting Code
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Format Document
         ◦ Select the command to format the current file.
-    7. Git Commands
+   7. Git Commands
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Git:
         ◦ Access various Git commands like Git: Commit, Git: Push, Git: Pull, etc.
-    8. Executing a Debug Command
+   8. Executing a Debug Command
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Debug:
         ◦ Access debug commands like Debug: Start Debugging, Debug: Add Configuration, etc.
-    9. Opening a Terminal
+   9. Opening a Terminal
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Terminal:
         ◦ Select Terminal: Create New Integrated Terminal to open a new terminal.
-    10. Toggling Sidebar Visibility
+   10. Toggling Sidebar Visibility
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: View: Toggle Side Bar Visibility
         ◦ Select the command to show or hide the Side Bar.
