@@ -405,6 +405,6 @@ To set a breakpoint, click in the left margin next to the line number where you 
 - Your answers should be well-structured, concise, and to the point.
 - Provide screenshots or step-by-step instructions where applicable.
 - Cite any references or sources you use in your answers.
--Reference point chat Gpt
+- Reference point chat Gpt
 - Submit your completed assignment by 1st July 
 
