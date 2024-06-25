@@ -102,44 +102,44 @@ Answer the following questions based on your understanding of the installation a
  When you open the Command Palette, a text box appears at the top of the VS Code window where you can type commands. As you type, VS Code provides suggestions and matches based on what you’ve entered.
  Common Tasks Performed Using the Command Palette
  Here are some examples of tasks you can perform using the Command Palette:
-   1. Changing Color Theme
+   * Changing Color Theme
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Theme:
         ◦ Select: Preferences: Color Theme
         ◦ Choose a theme from the list.
-   2. Installing Extensions
+   * Installing Extensions
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Install Extensions
         ◦ Select: Extensions: Install Extensions
         ◦ Search for and install the desired extension.
-   3. Running a Task
+   * Running a Task
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Run Task
         ◦ Select: Tasks: Run Task
         ◦ Choose a task from the list (e.g., build, test).
-   4. Opening Settings
+   * Opening Settings
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Preferences: Open Settings (UI) or Preferences: Open Settings (JSON)
-   5. Navigating to a File
+   * Navigating to a File
         ◦ Open the Command Palette: Ctrl+P
         ◦ Type the name of the file you want to open.
-   6. Formatting Code
+   * Formatting Code
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Format Document
         ◦ Select the command to format the current file.
-   7. Git Commands
+   * Git Commands
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Git:
         ◦ Access various Git commands like Git: Commit, Git: Push, Git: Pull, etc.
-   8. Executing a Debug Command
+   * Executing a Debug Command
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Debug:
         ◦ Access debug commands like Debug: Start Debugging, Debug: Add Configuration, etc.
-   9. Opening a Terminal
+   *  Opening a Terminal
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: Terminal:
         ◦ Select Terminal: Create New Integrated Terminal to open a new terminal.
-   10. Toggling Sidebar Visibility
+   * Toggling Sidebar Visibility
         ◦ Open the Command Palette: Ctrl+Shift+P
         ◦ Type: View: Toggle Side Bar Visibility
         ◦ Select the command to show or hide the Side Bar.
@@ -149,72 +149,53 @@ Answer the following questions based on your understanding of the installation a
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
 
   Role of Extensions in VS Code
-    1. Language Support: Extensions provide support for programming languages not natively supported by VS Code, including syntax highlighting, IntelliSense, and debugging capabilities.
-    2. Productivity Enhancements: Extensions can improve workflow and productivity with features like snippets, code formatting, linting, and task automation.
-    3. Tool Integration: Extensions allow seamless integration with version control systems, build tools, deployment pipelines, and cloud services.
-    4. Customization: Users can tailor the editor's appearance and behavior through themes, icons, and UI customization extensions.
-    5. Debugging: Extensions provide advanced debugging tools and features for various languages and frameworks.
+    * Language Support: Extensions provide support for programming languages not natively supported by VS Code, including syntax highlighting, IntelliSense, and debugging capabilities.
+    * Productivity Enhancements: Extensions can improve workflow and productivity with features like snippets, code formatting, linting, and task automation.
+    * . Tool Integration: Extensions allow seamless integration with version control systems, build tools, deployment pipelines, and cloud services.
+    * . Customization: Users can tailor the editor's appearance and behavior through themes, icons, and UI customization extensions.
+    * . Debugging: Extensions provide advanced debugging tools and features for various languages and frameworks.
  Finding, Installing, and Managing Extensions
  Finding Extensions
-    1. Extensions View: Click the Extensions icon in the Activity Bar on the side of the window or use the shortcut Ctrl+Shift+X.
-    2. Search Bar: Use the search bar in the Extensions view to find extensions by name, category, or keyword.
+   * Extensions View: Click the Extensions icon in the Activity Bar on the side of the window or use the shortcut Ctrl+Shift+X.
+   * Search Bar: Use the search bar in the Extensions view to find extensions by name, category, or keyword.
  Installing Extensions
-    1. Extensions View: After finding the desired extension, click the Install button next to it.
-    2. Command Palette
+   * Extensions View: After finding the desired extension, click the Install button next to it.
+   * Command Palette: Open the Command Palette (Ctrl+Shift+P), type Extensions: Install Extensions, and search for the extension you want to install.
 
-
-
-
-
- Role of Extensions in VS Code
-    1. Language Support: Extensions provide support for programming languages not natively supported by VS Code, including syntax highlighting, IntelliSense, and debugging capabilities.
-    2. Productivity Enhancements: Extensions can improve workflow and productivity with features like snippets, code formatting, linting, and task automation.
-    3. Tool Integration: Extensions allow seamless integration with version control systems, build tools, deployment pipelines, and cloud services.
-    4. Customization: Users can tailor the editor's appearance and behavior through themes, icons, and UI customization extensions.
-    5. Debugging: Extensions provide advanced debugging tools and features for various languages and frameworks.
-   Finding, Installing, and Managing Extensions
-   Finding Extensions
-    1. Extensions View: Click the Extensions icon in the Activity Bar on the side of the window or use the shortcut Ctrl+Shift+X.
-    2. Search Bar: Use the search bar in the Extensions view to find extensions by name, category, or keyword.
-   Installing Extensions
-    1. Extensions View: After finding the desired extension, click the Install button next to it.
-    2. Command Palette: Open the Command Palette (Ctrl+Shift+P), type Extensions: Install Extensions, and search for the extension you want to install.
    Managing Extensions
-    1. Enable/Disable Extensions: Right-click on the extension in the Extensions view and select Enable or Disable.
-    2. Update Extensions: Extensions can be updated from the Extensions view by clicking the update button if available.
-    3. Uninstall Extensions: Right-click on the extension in the Extensions view and select Uninstall.
-    4. Extension Settings: Some extensions have configurable settings accessible via File -> Preferences -> Settings or by clicking the gear icon next to the extension in the Extensions view.
-   Essential Extensions for Web Development
+    * Enable/Disable Extensions: Right-click on the extension in the Extensions view and select Enable or Disable.
+    * Update Extensions: Extensions can be updated from the Extensions view by clicking the update button if available.
+    * Uninstall Extensions: Right-click on the extension in the Extensions view and select Uninstall.
+    * Extension Settings: Some extensions have configurable settings accessible via File -> Preferences -> Settings or by clicking the gear icon next to the extension in the Extensions view.
+   
    Here are some popular and essential extensions for web development:
-   1. HTML, CSS, and JavaScript
+   * HTML, CSS, and JavaScript
     • HTML CSS Support: Provides CSS class and id validation in HTML files.
     • Prettier - Code Formatter: Automatically formats code to ensure a consistent style across HTML, CSS, JavaScript, and other supported languages.
     • ESLint: Integrates ESLint into VS Code for identifying and reporting on patterns found in JavaScript/TypeScript code.
     • Live Server: Launches a local development server with live reload feature for static and dynamic pages.
-   2. Frameworks and Libraries
+   * Frameworks and Libraries
     • React Native Tools: Provides a debugging environment for React Native projects.
     • Vue.js Extension Pack: A collection of extensions to support Vue.js development, including Vetur for Vue-specific features.
     • Angular Essentials: An extension pack for Angular development, including Angular Language Service, Snippets, and CLI integration.
-   3. Version Control
+   * Version Control
     • GitLens: Enhances the built-in Git capabilities with features like blame annotations, repository explorer, and more.
     • Git Graph: Visualize your repository’s commit history in a graph format.
-   4. Productivity Tools
+   * Productivity Tools
     • Path Intellisense: Autocompletes filenames as you type.
     • Bracket Pair Colorizer 2: Colors matching brackets to make nested code easier to read.
     • Auto Rename Tag: Automatically renames paired HTML/XML tags.
-   5. Debugging
+   * Debugging
     • Debugger for Chrome: Debug JavaScript code in the Google Chrome browser, or other targets that support the Chrome Debugging Protocol.
     • Debugger for Firefox: Debug JavaScript code in the Mozilla Firefox browser.
-  6. Terminal Integration
+   * Terminal Integration
     • Terminal: Integrated terminal allows you to run shell commands within VS Code without switching context.
 
 
 6. Integrated Terminal:
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
 
-The integrated terminal in Visual Studio Code (VS Code) allows developers to run command-line operations within the editor, providing a seamless workflow between writing code and executing commands. Here's how to open and use the integrated terminal, along with the advantages it offers compared to using an external terminal.
-Opening and Using the Integrated Terminal
-Opening the Integrated Terminal
+- Opening and Using the Integrated Terminal
     1. Keyboard Shortcut:
         ◦ Windows/Linux: Ctrl + (Ctrl + backtick)
         ◦ Mac: Cmd + (Cmd + backtick)
@@ -226,11 +207,7 @@ Opening the Integrated Terminal
 Using the Integrated Terminal
 Once the terminal is open, it appears at the bottom of the VS Code window. You can use it just like any other terminal. Here are some common tasks you can perform:
     1. Running Commands: You can run shell commands, scripts, and executables just as you would in a regular terminal.
-       sh
-       Copy code
-       npm install
-       python3 script.py
-       git status
+      
     2. Multiple Terminals: You can open multiple terminal instances. Click the + icon in the terminal tab bar or use the Command Palette to create a new terminal.
         ◦ Keyboard Shortcut: Ctrl + Shift + (Windows/Linux) or Cmd + Shift + (Mac).
     3. Switching Terminals: Use the dropdown menu in the terminal tab bar to switch between open terminals.
