@@ -381,15 +381,15 @@ To set a breakpoint, click in the left margin next to the line number where you 
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
 
-Prerequisites
+- Prerequisites
     1. Git Installation: Ensure Git is installed on your system. You can download and install it from git-scm.com.
     2. GitHub Account: Sign up for a GitHub account if you don't have one already.
-Setting Up Git in VS Code
+- Setting Up Git in VS Code
     1. Open VS Code: Launch VS Code.
     2. Install Git Extension: The Git extension is built into VS Code by default. If you need additional features, you can install extensions like GitLens.
-Initializing a Git Repository
+- Initializing a Git Repository
     1. Open Your Project: Open the folder containing your project files in VS Code.
-    3. Initialize Repository:
+    2. Initialize Repository:
         ◦ If your project folder is not already a Git repository, you will see an Initialize Repository button. Click on it.
         ◦ This will create a .git folder in your project directory, initializing a new Git repository.
     3. Making Commits
@@ -398,13 +398,13 @@ Initializing a Git Repository
         ◦Then type git add . in the terminal and click enter.
        2. Committing Changes:
         ◦ After staging the changes, enter a commit message in the terminal by typing "git commit -m followed by "title of your work" and click enter.
-      4 Pushing changes to github:
+    4. Pushing changes to github:
         ◦Type git push and click enter.
 
 
 - Your answers should be well-structured, concise, and to the point.
 - Provide screenshots or step-by-step instructions where applicable.
 - Cite any references or sources you use in your answers.
-Reference point chat Gpt
+-Reference point chat Gpt
 - Submit your completed assignment by 1st July 
 
