@@ -204,19 +204,19 @@ Answer the following questions based on your understanding of the installation a
     3. Command Palette:
         ◦ Open the Command Palette (Ctrl + Shift + P or Cmd + Shift + P).
         ◦ Type Terminal: Create New Integrated Terminal and select it.
-Using the Integrated Terminal
+- Using the Integrated Terminal
 Once the terminal is open, it appears at the bottom of the VS Code window. You can use it just like any other terminal. Here are some common tasks you can perform:
-    1. Running Commands: You can run shell commands, scripts, and executables just as you would in a regular terminal.
+   1. Running Commands: You can run shell commands, scripts, and executables just as you would in a regular terminal.
       
-    2. Multiple Terminals: You can open multiple terminal instances. Click the + icon in the terminal tab bar or use the Command Palette to create a new terminal.
+   2. Multiple Terminals: You can open multiple terminal instances. Click the + icon in the terminal tab bar or use the Command Palette to create a new terminal.
         ◦ Keyboard Shortcut: Ctrl + Shift + (Windows/Linux) or Cmd + Shift + (Mac).
-    3. Switching Terminals: Use the dropdown menu in the terminal tab bar to switch between open terminals.
-    4. Splitting Terminals: You can split the terminal view to run commands side by side.
+   3. Switching Terminals: Use the dropdown menu in the terminal tab bar to switch between open terminals.
+   4. Splitting Terminals: You can split the terminal view to run commands side by side.
         ◦ Click the split terminal icon (two overlapping squares) or right-click on the terminal tab and select Split Terminal.
-    5. Customizing Terminal Settings:
+   5. Customizing Terminal Settings:
         ◦ Go to File -> Preferences -> Settings.
         ◦ Search for terminal to customize various settings such as font size, shell integration, and more.
-Advantages of Using the Integrated Terminal
+- Advantages of Using the Integrated Terminal
     1. Seamless Workflow: The integrated terminal allows you to stay within the VS Code environment, reducing context switching and improving productivity. You can quickly run commands related to your code without leaving the editor.
     2. Synchronization with the Editor: The integrated terminal opens in the context of the current project workspace, so file paths and environment settings are automatically aligned with your project's configuration.
     3. Enhanced Productivity:
@@ -226,7 +226,7 @@ Advantages of Using the Integrated Terminal
     5. Customization: The integrated terminal can be customized to match your preferences, including shell type (e.g., bash, zsh, PowerShell), themes, and keybindings.
     6. Extension Integration: Extensions can enhance the functionality of the integrated terminal, such as adding command snippets, improving shell integration, and providing additional tools.
     7. Platform Consistency: The terminal works consistently across different operating systems (Windows, macOS, Linux), providing a unified experience regardless of the platform.
-Example Usage Scenario
+- Example Usage Scenario
     • Web Development: Open a terminal to run npm start to launch a development server, another terminal to watch for file changes with npm run watch, and a third to run tests with npm test.
     • Version Control: Use one terminal for running Git commands to manage your repository while coding in the editor.
     • Automation: Run build scripts, deployment scripts, or other automation tasks directly from the integrated terminal.
@@ -235,8 +235,8 @@ Example Usage Scenario
 7. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
 
-Creating Files and Folders
-Creating Files
+- Creating Files and Folders
+- Creating Files
     1. Using the Explorer View:
         ◦ Open the Explorer view by clicking the Files icon in the Activity Bar or using the shortcut Ctrl + Shift + E.
         ◦ Right-click on the folder where you want to create a new file.
@@ -248,12 +248,12 @@ Creating Files
     3. Directly in the Editor:
         ◦ Use the shortcut Ctrl + N (Windows/Linux) or Cmd + N (Mac) to create a new file.
         ◦ Save the new file with Ctrl + S (Windows/Linux) or Cmd + S (Mac), and specify the name and location.
-Creating Folders
+- Creating Folders
     1. Using the Explorer View:
         ◦ Open the Explorer view with Ctrl + Shift + E.
         ◦ Right-click on the parent folder where you want to create a new folder.
         ◦ Select New Folder, and then enter the folder name.
-Opening Files and Folders
+- Opening Files and Folders
     1. Using the Explorer View:
         ◦ Navigate to the desired file or folder in the Explorer view and double-click to open it.
         ◦ You can also drag and drop files or folders into the editor window.
@@ -264,7 +264,7 @@ Opening Files and Folders
     3. Using Keyboard Shortcuts:
         ◦ Open File: Ctrl + O (Windows/Linux) or Cmd + O (Mac).
         ◦ Open Folder: Ctrl + K, Ctrl + O (Windows/Linux) or Cmd + K, Cmd + O (Mac).
-Managing Files and Folders
+- Managing Files and Folders
     1. Renaming:
         ◦ Right-click on the file or folder in the Explorer view and select Rename.
         ◦ Alternatively, select the file or folder and press F2.
@@ -276,7 +276,7 @@ Managing Files and Folders
     4. Copying and Pasting:
         ◦ Right-click on the file or folder and select Copy or Cut.
         ◦ Right-click on the destination folder and select Paste.
-Navigating Between Files and Directories Efficiently
+- Navigating Between Files and Directories Efficiently
     1. Quick Open:
         ◦ Use Ctrl + P (Windows/Linux) or Cmd + P (Mac) to open the Quick Open dialog.
         ◦ Type part of the file name and select it from the list to open it.
@@ -305,15 +305,15 @@ Navigating Between Files and Directories Efficiently
 8. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
 
-In Visual Studio Code (VS Code), users can find and customize settings through the Settings interface. Settings can be adjusted at different scopes including user settings, workspace settings, and folder settings.
+- In Visual Studio Code (VS Code), users can find and customize settings through the Settings interface. Settings can be adjusted at different scopes including user settings, workspace settings, and folder settings.
 Accessing Settings
-    1. Settings Interface:
+   1. Settings Interface:
         ◦ Keyboard Shortcut: Ctrl + , (Windows/Linux) or Cmd + , (Mac).
         ◦ Menu: Go to File -> Preferences -> Settings (Windows/Linux) or Code -> Preferences -> Settings (Mac).
-    2. Command Palette:
+   2. Command Palette:
         ◦ Open the Command Palette with Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (Mac).
         ◦ Type Preferences: Open Settings and select it.
-Changing the Theme
+- Changing the Theme
     1. Using the Settings Interface:
         ◦ Open the Settings interface.
         ◦ Search for Color Theme in the search bar.
@@ -323,13 +323,13 @@ Changing the Theme
         ◦ Open the Command Palette (Ctrl + Shift + P or Cmd + Shift + P).
         ◦ Type Theme: Color Theme and select it.
         ◦ Choose a theme from the dropdown list.
-Changing the Font Size
+- Changing the Font Size
     1. Using the Settings Interface:
         ◦ Open the Settings interface.
         ◦ Search for Font Size in the search bar.
         ◦ Locate the Editor: Font Size setting under the Text Editor section.
         ◦ Adjust the value to your desired font size (e.g., 14, 16).
-Customizing Keybindings
+- Customizing Keybindings
     1. Using the Keybindings Interface:
         ◦ Open the Command Palette (Ctrl + Shift + P or Cmd + Shift + P).
         ◦ Type Preferences: Open Keyboard Shortcuts and select it.
@@ -341,7 +341,7 @@ Customizing Keybindings
 9. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 
-Steps to Set Up and Start Debugging a Simple Program
+- Steps to Set Up and Start Debugging a Simple Program
 1. Install the Necessary Extensions
 Before starting, ensure you have the appropriate language extension installed for the programming language you are using. For example:
     • Python: Python extension by Microsoft
@@ -364,7 +364,7 @@ To set a breakpoint, click in the left margin next to the line number where you 
     2. Select the desired configuration from the dropdown menu at the top of the Debug panel.
     3. Click the green play button or press F5 to start debugging.
 
- Key Debugging Features in VS Code
+ - Key Debugging Features in VS Code
     1. Breakpoints: Set breakpoints to pause the execution of your code at specific lines. Conditional breakpoints and logpoints are also supported.
     2. Watch Expressions: Monitor variables or expressions' values during debugging.
     3. Call Stack: View the call stack to see the sequence of function calls that led to the current point in the execution.
